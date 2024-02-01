@@ -3,8 +3,8 @@
 ////////////////////
 
 street {
-    totalNumLanesOneway: 2;
-    totalNumLanes: 4;
+    totalLanesOneway: 2;
+    totalLanes: 4;
     laneWidth: 3.5;
     filletRadius: 10.;
 }
@@ -32,7 +32,7 @@ section {
 ////////////////////
 
 street {
-    totalNumLanes: 1;
+    totalLanes: 1;
     laneWidth: 3.5;
     filletRadius: 10.;
 }
@@ -55,8 +55,8 @@ section {
 ////////////////////
 
 street {
-    totalNumLanesOneway: 2;
-    totalNumLanes: 4;
+    totalLanesOneway: 2;
+    totalLanes: 4;
     laneWidth: 2.7;
     filletRadius: 4.;
     sidewalk: both;
@@ -90,7 +90,7 @@ sidewalk {
 ////////////////////
 
 street {
-    totalNumLanes: 1;
+    totalLanes: 1;
     laneWidth: 2.7;
     filletRadius: 4.;
 }
@@ -107,7 +107,7 @@ section {
 ////////////////////
 
 street {
-    totalNumLanes: 2;
+    totalLanes: 2;
     laneWidth: 2.5;
     filletRadius: 3.;
     sidewalk: both;
@@ -141,7 +141,7 @@ sidewalk {
 ////////////////////
 
 street {
-    totalNumLanes: 1;
+    totalLanes: 1;
     laneWidth: 2.5;
     filletRadius: 3.;
 }
@@ -162,7 +162,7 @@ section {
 ////////////////////
 
 street {
-    totalNumLanes: 2;
+    totalLanes: 2;
     laneWidth: 2.5;
     filletRadius: 2.;
     sidewalk: both;
@@ -199,7 +199,7 @@ sidewalk {
 ////////////////////
 
 street {
-    totalNumLanes: random_weighted( (1, 60), (2, 40) );
+    totalLanes: random_weighted( (1, 60), (2, 40) );
     laneWidth: 2.;
     filletRadius: 1.;
     sidewalk: random_weighted( (none, 25), (both, 25), (left, 25), (left, 25) );
